@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: hacbs-test-project-8nzh
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rycole-appstudio/integration1-rkdg-tenant/integ-app-ehaq/hacbs-test-project-8nzh@sha256:df786733adb3282987b39b7022c90a2141635c688ef5391b02154d5644836870
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
